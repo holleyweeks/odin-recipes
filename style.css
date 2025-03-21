@@ -3,12 +3,12 @@
 }
 
 h1 {
-    color: green;
+    color: #003135;
     font-size: 30px;
 }
 
 h2 {
-    background-color: black;
+    background-color: #024950;
     color: white;
     font-size: 24px;
 }
@@ -16,4 +16,23 @@ h2 {
 li {
     font-size: 16px;
     font-weight: lighter;
+}
+
+a {
+    color: #0FA4AF;
+}
+
+span {
+    color: #964734;
+}
+
+li::marker {
+    color: #964734;
+}
+
+.main {
+    width: 50%;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #AFDDE5;
 }
